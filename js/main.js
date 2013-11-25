@@ -1,5 +1,5 @@
 $(document).ready(function(){
-	$('#btn').each(function(){
+	$('.ui-btn').each(function(){
 		
 		var rel = $(this).attr('rel');
 		
@@ -9,6 +9,14 @@ $(document).ready(function(){
 			}
 		});
 	
+	});
+	
+	$('#btnAdd').click(function(){
+		
+	});
+	
+	$('#btnRemove').click(function(){
+		
 	});
 
 });
