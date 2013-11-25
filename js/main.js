@@ -1,1 +1,5 @@
-$("#date").datepicker();
+$(document).ready(function(){
+	$("#date").datepicker();
+});
+
+
