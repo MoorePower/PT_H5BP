@@ -98,6 +98,14 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+p {
+	border: 0.25em solid rgb(97,97,255);
+	padding: 0.5em;
+	margin-left: 2em;
+	margin-right: 2em;
+	border-radius: 1em;
+	background-color: rgb(207,207,207);
+}
 
 
 
