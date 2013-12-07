@@ -13,15 +13,26 @@ $(document).ready(function(){
 	});
 	
 	$('#btnAdd').click(function(){
-		$("<p>test</p>").appendTo(".main");
+		//name the container
+		var projectName = prompt("Please enter a project name:");
+		
+		//make sure a value was entered
+		if (!projectName){
+			alert("Please enter a project name!")
+		}
+		else{
+			//create project container
+			$("<p></p>").appendTo(".container").attr('id', projectName);			
+		}	
 	});
 	
 	$('#btnRemove').click(function(){
 		
 	});
 	
-	$('.main').sortable();
-	$('.main').disableSelection();
+	//$('.container').sortable();
+	//$('.container').disableSelection();
+	$('.container').selectable();
 
 });
 
