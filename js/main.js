@@ -22,12 +22,12 @@ $(document).ready(function(){
 		}
 		else{
 			//create project container
-			$("<p></p>").appendTo(".container").attr('id', projectName);			
+			$("<p>" + projectName +"</p>").appendTo(".container").attr('id', projectName);
 		}	
 	});
 	
 	$('#btnRemove').click(function(){
-		
+		$(".ui-selected").remove();
 	});
 	
 	//$('.container').sortable();

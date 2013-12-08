@@ -98,16 +98,40 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+h1{
+	text-align: center;
+	background: orange;
+}
+
 p {
-	border: 0.25em solid rgb(97,97,255);
+	border: 0.25em solid rgb(88,152,217);
 	padding: 0.5em;
 	margin-left: 2em;
 	margin-right: 2em;
-	border-radius: 1em;
-	background-color: rgb(207,207,207);
+	background-color: white;
 }
 
+.container .ui-selecting {
+	background: #E0E0E0;
+}
 
+.container .ui-selected{
+	background: #BFBFBF;
+}
+
+.control-buttons .ui-button{
+	position: relative;
+	left: 37%;
+	top: 50%;
+	margin-top: 1em;
+}
+
+.bottom-row .ui-button{
+	position: relative;
+	left: 38.5%;
+	top: 50%;
+	margin-top: 1em;
+}
 
 
 
